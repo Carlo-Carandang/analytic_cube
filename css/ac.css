@@ -1,0 +1,129 @@
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+      background-color: black;
+      color:white;
+      font-weight: bold;
+      text-decoration: none !important;
+}
+
+.nav-link {
+    background-color: black;
+    color: red;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+blockquote {
+    border-left: none;
+}
+
+blockquote:before {
+        content: "\f10d"; 
+            font-family: FontAwesome;
+                float: left;
+                    margin-right: 10px;
+                }
+
+blockquote:after {
+        content: "\f10e"; 
+            font-family: FontAwesome;
+                float: right;
+                    margin-left: 10px;
+}
+
+footer {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+}
+
+header p {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 1.0em 0;
+}
+
+hr {
+    background-color: black;
+    border: 0 none;
+    color: black;
+    height: 1px;
+}
+
+section#banner-header {
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+section#banner-header .wrap-headline {
+    padding-bottom: 20%;
+    padding-top: 20%;
+    position: relative;
+       
+}
+
+section#banner-header h1 {
+    color: #FFF;
+}
+
+section#banner-header h2 {
+    color: #FFF;
+    font-size: 2.5rem;
+}
+
+section#banner-header hr {
+    width: 10%;
+}
+
+section#banner-header .btn-default {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+section#about {
+    background-color: white;
+    /*border-top: 0.1em solid black;*/
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-size: 1.5em; 
+}
+
+section#about .about-text-medium {
+    font-size: 21px;
+    font-size: 2.5rem;
+}
+
+section#about .block-inner {
+    background-color: #E9E9E9;
+}
+
+.margin-bottom-35 {
+    margin-bottom: 35px;
+    margin-bottom: 2.1875rem
+}
+
+.margin-top-35 {
+    margin-top: 35px;
+    margin-top: 2.1875rem
+}
+
+section#team {
+    background-color: white;
+    border-top: 0.1em solid black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-size: 1.5em;
+    /*border-bottom: 0.1em solid black; */
+}
+
+section#team .thumbnail {
+    border: 0 none;
+    box-shadow: none;
+}
+
