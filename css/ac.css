@@ -127,3 +127,11 @@ section#team .thumbnail {
     box-shadow: none;
 }
 
+section#blog1 {
+    background-color: white;
+    /*border-top: 0.1em solid black; */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-size: 1.5em;
+    /*border-bottom: 0.1em solid black; */
+}
